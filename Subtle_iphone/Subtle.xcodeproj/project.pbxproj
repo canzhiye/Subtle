@@ -23,6 +23,8 @@
 		3E58DCA0197B66DD003B4096 /* SubtleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E58DC9F197B66DD003B4096 /* SubtleTests.m */; };
 		3E58DCAC197B707A003B4096 /* INDANCSServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E58DCAB197B707A003B4096 /* INDANCSServer.m */; };
 		3E58DCAF197B71CA003B4096 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E58DCAE197B71CA003B4096 /* CoreBluetooth.framework */; };
+		3E58DCB2197B750E003B4096 /* subtleSettingsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E58DCB1197B750E003B4096 /* subtleSettingsTableViewCell.m */; };
+		3E58DCB5197B784A003B4096 /* subtleAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E58DCB4197B784A003B4096 /* subtleAPI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,10 @@
 		3E58DCAA197B707A003B4096 /* INDANCSServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDANCSServer.h; sourceTree = "<group>"; };
 		3E58DCAB197B707A003B4096 /* INDANCSServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDANCSServer.m; sourceTree = "<group>"; };
 		3E58DCAE197B71CA003B4096 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		3E58DCB0197B750E003B4096 /* subtleSettingsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subtleSettingsTableViewCell.h; sourceTree = "<group>"; };
+		3E58DCB1197B750E003B4096 /* subtleSettingsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = subtleSettingsTableViewCell.m; sourceTree = "<group>"; };
+		3E58DCB3197B784A003B4096 /* subtleAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subtleAPI.h; sourceTree = "<group>"; };
+		3E58DCB4197B784A003B4096 /* subtleAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = subtleAPI.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,9 +129,13 @@
 				3E58DCAD197B707E003B4096 /* INDANCS */,
 				3E58DC83197B66DD003B4096 /* subtleAppDelegate.h */,
 				3E58DC84197B66DD003B4096 /* subtleAppDelegate.m */,
+				3E58DCB3197B784A003B4096 /* subtleAPI.h */,
+				3E58DCB4197B784A003B4096 /* subtleAPI.m */,
 				3E58DC86197B66DD003B4096 /* Main.storyboard */,
 				3E58DC89197B66DD003B4096 /* subtleTableViewController.h */,
 				3E58DC8A197B66DD003B4096 /* subtleTableViewController.m */,
+				3E58DCB0197B750E003B4096 /* subtleSettingsTableViewCell.h */,
+				3E58DCB1197B750E003B4096 /* subtleSettingsTableViewCell.m */,
 				3E58DC8C197B66DD003B4096 /* Images.xcassets */,
 				3E58DC7B197B66DD003B4096 /* Supporting Files */,
 			);
@@ -277,9 +287,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E58DC81197B66DD003B4096 /* main.m in Sources */,
+				3E58DCB2197B750E003B4096 /* subtleSettingsTableViewCell.m in Sources */,
 				3E58DCAC197B707A003B4096 /* INDANCSServer.m in Sources */,
 				3E58DC8B197B66DD003B4096 /* subtleTableViewController.m in Sources */,
 				3E58DC85197B66DD003B4096 /* subtleAppDelegate.m in Sources */,
+				3E58DCB5197B784A003B4096 /* subtleAPI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

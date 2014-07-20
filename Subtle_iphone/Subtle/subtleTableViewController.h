@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "INDANCSServer.h"
 
-@interface subtleTableViewController : UITableViewController
+@interface subtleTableViewController : UITableViewController <UIAlertViewDelegate>
+
+@property (nonatomic, strong) INDANCSServer *server;
+@property (nonatomic, strong) NSMutableArray *apps;
 
 @end

@@ -29,23 +29,23 @@
 			remoteGlobalIDString = FC1B1F43197B48A600638798;
 			remoteInfo = Subtle;
 		};
-		FC1B1F83197B496900638798 /* PBXContainerItemProxy */ = {
+		FC1B1FBB197B66DD00638798 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FC1B1F7D197B496900638798 /* INDANCSClientFramework.xcodeproj */;
+			containerPortal = FC1B1FB5197B66DC00638798 /* INDANCSClientFramework.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 03578FBA1867DDC30055FB4E;
 			remoteInfo = INDANCSClient;
 		};
-		FC1B1F85197B496900638798 /* PBXContainerItemProxy */ = {
+		FC1B1FBD197B66DD00638798 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FC1B1F7D197B496900638798 /* INDANCSClientFramework.xcodeproj */;
+			containerPortal = FC1B1FB5197B66DC00638798 /* INDANCSClientFramework.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 03578FD11867DDC40055FB4E;
 			remoteInfo = INDANCSClientTests;
 		};
-		FC1B1F87197B5AFE00638798 /* PBXContainerItemProxy */ = {
+		FC1B1FC1197B674100638798 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FC1B1F7D197B496900638798 /* INDANCSClientFramework.xcodeproj */;
+			containerPortal = FC1B1FB5197B66DC00638798 /* INDANCSClientFramework.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 03578FB91867DDC30055FB4E;
 			remoteInfo = INDANCSClient;
@@ -73,7 +73,7 @@
 		FC1B1F6F197B48A700638798 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FC1B1F71197B48A700638798 /* SubtleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubtleTests.m; sourceTree = "<group>"; };
 		FC1B1F7B197B48E900638798 /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
-		FC1B1F7D197B496900638798 /* INDANCSClientFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = INDANCSClientFramework.xcodeproj; path = INDANCSClientFramework/INDANCSClientFramework.xcodeproj; sourceTree = SOURCE_ROOT; };
+		FC1B1FB5197B66DC00638798 /* INDANCSClientFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = INDANCSClientFramework.xcodeproj; path = INDANCSClientFramework/INDANCSClientFramework.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 		FC1B1F3B197B48A500638798 = {
 			isa = PBXGroup;
 			children = (
-				FC1B1F7D197B496900638798 /* INDANCSClientFramework.xcodeproj */,
+				FC1B1FB5197B66DC00638798 /* INDANCSClientFramework.xcodeproj */,
 				FC1B1F4D197B48A600638798 /* Subtle */,
 				FC1B1F6B197B48A700638798 /* SubtleTests */,
 				FC1B1F46197B48A600638798 /* Frameworks */,
@@ -181,11 +181,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		FC1B1F7E197B496900638798 /* Products */ = {
+		FC1B1FB6197B66DC00638798 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FC1B1F84197B496900638798 /* INDANCSClient.framework */,
-				FC1B1F86197B496900638798 /* INDANCSClientTests.xctest */,
+				FC1B1FBC197B66DD00638798 /* INDANCSClient.framework */,
+				FC1B1FBE197B66DD00638798 /* INDANCSClientTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -204,7 +204,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				FC1B1F88197B5AFE00638798 /* PBXTargetDependency */,
+				FC1B1FC2197B674100638798 /* PBXTargetDependency */,
 			);
 			name = Subtle;
 			productName = Subtle;
@@ -256,8 +256,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = FC1B1F7E197B496900638798 /* Products */;
-					ProjectRef = FC1B1F7D197B496900638798 /* INDANCSClientFramework.xcodeproj */;
+					ProductGroup = FC1B1FB6197B66DC00638798 /* Products */;
+					ProjectRef = FC1B1FB5197B66DC00638798 /* INDANCSClientFramework.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -269,18 +269,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		FC1B1F84197B496900638798 /* INDANCSClient.framework */ = {
+		FC1B1FBC197B66DD00638798 /* INDANCSClient.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = INDANCSClient.framework;
-			remoteRef = FC1B1F83197B496900638798 /* PBXContainerItemProxy */;
+			remoteRef = FC1B1FBB197B66DD00638798 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		FC1B1F86197B496900638798 /* INDANCSClientTests.xctest */ = {
+		FC1B1FBE197B66DD00638798 /* INDANCSClientTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = INDANCSClientTests.xctest;
-			remoteRef = FC1B1F85197B496900638798 /* PBXContainerItemProxy */;
+			remoteRef = FC1B1FBD197B66DD00638798 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -333,10 +333,10 @@
 			target = FC1B1F43197B48A600638798 /* Subtle */;
 			targetProxy = FC1B1F69197B48A700638798 /* PBXContainerItemProxy */;
 		};
-		FC1B1F88197B5AFE00638798 /* PBXTargetDependency */ = {
+		FC1B1FC2197B674100638798 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = INDANCSClient;
-			targetProxy = FC1B1F87197B5AFE00638798 /* PBXContainerItemProxy */;
+			targetProxy = FC1B1FC1197B674100638798 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -454,8 +454,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Subtle/Subtle-Prefix.pch";
 				INFOPLIST_FILE = "Subtle/Subtle-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = /Users/canzhiye/AppDev/Subtle/Subtle/INDANCSClientFramework;
+				USER_HEADER_SEARCH_PATHS = "/Users/canzhiye/AppDev/Subtle/Subtle_mac/INDANCSClientFramework/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -468,8 +472,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Subtle/Subtle-Prefix.pch";
 				INFOPLIST_FILE = "Subtle/Subtle-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = /Users/canzhiye/AppDev/Subtle/Subtle/INDANCSClientFramework;
+				USER_HEADER_SEARCH_PATHS = "/Users/canzhiye/AppDev/Subtle/Subtle_mac/INDANCSClientFramework/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

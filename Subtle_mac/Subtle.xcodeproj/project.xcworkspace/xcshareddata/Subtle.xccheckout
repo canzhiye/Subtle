@@ -5,34 +5,44 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>FE34106B-B189-4E20-BE26-9F9081359601</string>
+	<string>1A80FDA3-0A14-49B0-B3B2-F2840DF0A4AD</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Subtle</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>318248AD-3781-4C29-AFD1-B4095BE34713</key>
-		<string>https://github.com/canzhiye/HueHueHue.git</string>
+		<key>971618E3-109A-4E25-AC6C-55A0AB8461BF</key>
+		<string>https://github.com/canzhiye/Subtle.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Subtle/Subtle.xcodeproj/project.xcworkspace</string>
+	<string>Subtle_mac/Subtle.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>318248AD-3781-4C29-AFD1-B4095BE34713</key>
+		<key>971618E3-109A-4E25-AC6C-55A0AB8461BF</key>
 		<string>../../..</string>
+		<key>D98D2015-BB62-436E-8D69-CB413ABB2603</key>
+		<string>../../External/ObjectiveKVDB/kvdb</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/canzhiye/HueHueHue.git</string>
+	<string>https://github.com/canzhiye/Subtle.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>318248AD-3781-4C29-AFD1-B4095BE34713</string>
+	<string>971618E3-109A-4E25-AC6C-55A0AB8461BF</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>318248AD-3781-4C29-AFD1-B4095BE34713</string>
+			<string>D98D2015-BB62-436E-8D69-CB413ABB2603</string>
+			<key>IDESourceControlWCCName</key>
+			<string>kvdb</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>971618E3-109A-4E25-AC6C-55A0AB8461BF</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Subtle</string>
 		</dict>

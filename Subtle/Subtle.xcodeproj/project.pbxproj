@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC1B1F48197B48A600638798 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1B1F47197B48A600638798 /* Cocoa.framework */; };
+		FC1B1F52197B48A600638798 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC1B1F50197B48A600638798 /* InfoPlist.strings */; };
+		FC1B1F54197B48A600638798 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1B1F53197B48A600638798 /* main.m */; };
+		FC1B1F58197B48A600638798 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FC1B1F56197B48A600638798 /* Credits.rtf */; };
+		FC1B1F5B197B48A600638798 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1B1F5A197B48A600638798 /* AppDelegate.m */; };
+		FC1B1F5E197B48A700638798 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC1B1F5C197B48A700638798 /* MainMenu.xib */; };
+		FC1B1F60197B48A700638798 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC1B1F5F197B48A700638798 /* Images.xcassets */; };
+		FC1B1F67197B48A700638798 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1B1F66197B48A700638798 /* XCTest.framework */; };
+		FC1B1F68197B48A700638798 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1B1F47197B48A600638798 /* Cocoa.framework */; };
+		FC1B1F70197B48A700638798 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC1B1F6E197B48A700638798 /* InfoPlist.strings */; };
+		FC1B1F72197B48A700638798 /* SubtleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1B1F71197B48A700638798 /* SubtleTests.m */; };
+		FC1B1F7C197B48E900638798 /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1B1F7B197B48E900638798 /* IOBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC1B1F69197B48A700638798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC1B1F3C197B48A600638798 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC1B1F43197B48A600638798;
+			remoteInfo = Subtle;
+		};
+		FC1B1F83197B496900638798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC1B1F7D197B496900638798 /* INDANCSClientFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03578FBA1867DDC30055FB4E;
+			remoteInfo = INDANCSClient;
+		};
+		FC1B1F85197B496900638798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC1B1F7D197B496900638798 /* INDANCSClientFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03578FD11867DDC40055FB4E;
+			remoteInfo = INDANCSClientTests;
+		};
+		FC1B1F87197B5AFE00638798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC1B1F7D197B496900638798 /* INDANCSClientFramework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 03578FB91867DDC30055FB4E;
+			remoteInfo = INDANCSClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC1B1F44197B48A600638798 /* Subtle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Subtle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1B1F47197B48A600638798 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FC1B1F4A197B48A600638798 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FC1B1F4B197B48A600638798 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FC1B1F4C197B48A600638798 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC1B1F4F197B48A600638798 /* Subtle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Subtle-Info.plist"; sourceTree = "<group>"; };
+		FC1B1F51197B48A600638798 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC1B1F53197B48A600638798 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC1B1F55197B48A600638798 /* Subtle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Subtle-Prefix.pch"; sourceTree = "<group>"; };
+		FC1B1F57197B48A600638798 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		FC1B1F59197B48A600638798 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC1B1F5A197B48A600638798 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC1B1F5D197B48A700638798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FC1B1F5F197B48A700638798 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC1B1F65197B48A700638798 /* SubtleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubtleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1B1F66197B48A700638798 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FC1B1F6D197B48A700638798 /* SubtleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SubtleTests-Info.plist"; sourceTree = "<group>"; };
+		FC1B1F6F197B48A700638798 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC1B1F71197B48A700638798 /* SubtleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubtleTests.m; sourceTree = "<group>"; };
+		FC1B1F7B197B48E900638798 /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
+		FC1B1F7D197B496900638798 /* INDANCSClientFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = INDANCSClientFramework.xcodeproj; path = INDANCSClientFramework/INDANCSClientFramework.xcodeproj; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC1B1F41197B48A600638798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1B1F7C197B48E900638798 /* IOBluetooth.framework in Frameworks */,
+				FC1B1F48197B48A600638798 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1B1F62197B48A700638798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1B1F68197B48A700638798 /* Cocoa.framework in Frameworks */,
+				FC1B1F67197B48A700638798 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC1B1F3B197B48A500638798 = {
+			isa = PBXGroup;
+			children = (
+				FC1B1F7D197B496900638798 /* INDANCSClientFramework.xcodeproj */,
+				FC1B1F4D197B48A600638798 /* Subtle */,
+				FC1B1F6B197B48A700638798 /* SubtleTests */,
+				FC1B1F46197B48A600638798 /* Frameworks */,
+				FC1B1F45197B48A600638798 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC1B1F45197B48A600638798 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC1B1F44197B48A600638798 /* Subtle.app */,
+				FC1B1F65197B48A700638798 /* SubtleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC1B1F46197B48A600638798 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC1B1F7B197B48E900638798 /* IOBluetooth.framework */,
+				FC1B1F47197B48A600638798 /* Cocoa.framework */,
+				FC1B1F66197B48A700638798 /* XCTest.framework */,
+				FC1B1F49197B48A600638798 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC1B1F49197B48A600638798 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC1B1F4A197B48A600638798 /* AppKit.framework */,
+				FC1B1F4B197B48A600638798 /* CoreData.framework */,
+				FC1B1F4C197B48A600638798 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FC1B1F4D197B48A600638798 /* Subtle */ = {
+			isa = PBXGroup;
+			children = (
+				FC1B1F59197B48A600638798 /* AppDelegate.h */,
+				FC1B1F5A197B48A600638798 /* AppDelegate.m */,
+				FC1B1F5C197B48A700638798 /* MainMenu.xib */,
+				FC1B1F5F197B48A700638798 /* Images.xcassets */,
+				FC1B1F4E197B48A600638798 /* Supporting Files */,
+			);
+			path = Subtle;
+			sourceTree = "<group>";
+		};
+		FC1B1F4E197B48A600638798 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC1B1F4F197B48A600638798 /* Subtle-Info.plist */,
+				FC1B1F50197B48A600638798 /* InfoPlist.strings */,
+				FC1B1F53197B48A600638798 /* main.m */,
+				FC1B1F55197B48A600638798 /* Subtle-Prefix.pch */,
+				FC1B1F56197B48A600638798 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC1B1F6B197B48A700638798 /* SubtleTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC1B1F71197B48A700638798 /* SubtleTests.m */,
+				FC1B1F6C197B48A700638798 /* Supporting Files */,
+			);
+			path = SubtleTests;
+			sourceTree = "<group>";
+		};
+		FC1B1F6C197B48A700638798 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC1B1F6D197B48A700638798 /* SubtleTests-Info.plist */,
+				FC1B1F6E197B48A700638798 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC1B1F7E197B496900638798 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC1B1F84197B496900638798 /* INDANCSClient.framework */,
+				FC1B1F86197B496900638798 /* INDANCSClientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC1B1F43197B48A600638798 /* Subtle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC1B1F75197B48A700638798 /* Build configuration list for PBXNativeTarget "Subtle" */;
+			buildPhases = (
+				FC1B1F40197B48A600638798 /* Sources */,
+				FC1B1F41197B48A600638798 /* Frameworks */,
+				FC1B1F42197B48A600638798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC1B1F88197B5AFE00638798 /* PBXTargetDependency */,
+			);
+			name = Subtle;
+			productName = Subtle;
+			productReference = FC1B1F44197B48A600638798 /* Subtle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC1B1F64197B48A700638798 /* SubtleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC1B1F78197B48A700638798 /* Build configuration list for PBXNativeTarget "SubtleTests" */;
+			buildPhases = (
+				FC1B1F61197B48A700638798 /* Sources */,
+				FC1B1F62197B48A700638798 /* Frameworks */,
+				FC1B1F63197B48A700638798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC1B1F6A197B48A700638798 /* PBXTargetDependency */,
+			);
+			name = SubtleTests;
+			productName = SubtleTests;
+			productReference = FC1B1F65197B48A700638798 /* SubtleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC1B1F3C197B48A600638798 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Canzhi Ye";
+				TargetAttributes = {
+					FC1B1F64197B48A700638798 = {
+						TestTargetID = FC1B1F43197B48A600638798;
+					};
+				};
+			};
+			buildConfigurationList = FC1B1F3F197B48A600638798 /* Build configuration list for PBXProject "Subtle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC1B1F3B197B48A500638798;
+			productRefGroup = FC1B1F45197B48A600638798 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FC1B1F7E197B496900638798 /* Products */;
+					ProjectRef = FC1B1F7D197B496900638798 /* INDANCSClientFramework.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				FC1B1F43197B48A600638798 /* Subtle */,
+				FC1B1F64197B48A700638798 /* SubtleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FC1B1F84197B496900638798 /* INDANCSClient.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = INDANCSClient.framework;
+			remoteRef = FC1B1F83197B496900638798 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FC1B1F86197B496900638798 /* INDANCSClientTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = INDANCSClientTests.xctest;
+			remoteRef = FC1B1F85197B496900638798 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC1B1F42197B48A600638798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1B1F52197B48A600638798 /* InfoPlist.strings in Resources */,
+				FC1B1F60197B48A700638798 /* Images.xcassets in Resources */,
+				FC1B1F58197B48A600638798 /* Credits.rtf in Resources */,
+				FC1B1F5E197B48A700638798 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1B1F63197B48A700638798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1B1F70197B48A700638798 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC1B1F40197B48A600638798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1B1F5B197B48A600638798 /* AppDelegate.m in Sources */,
+				FC1B1F54197B48A600638798 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1B1F61197B48A700638798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1B1F72197B48A700638798 /* SubtleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC1B1F6A197B48A700638798 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC1B1F43197B48A600638798 /* Subtle */;
+			targetProxy = FC1B1F69197B48A700638798 /* PBXContainerItemProxy */;
+		};
+		FC1B1F88197B5AFE00638798 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = INDANCSClient;
+			targetProxy = FC1B1F87197B5AFE00638798 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC1B1F50197B48A600638798 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC1B1F51197B48A600638798 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FC1B1F56197B48A600638798 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC1B1F57197B48A600638798 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		FC1B1F5C197B48A700638798 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC1B1F5D197B48A700638798 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		FC1B1F6E197B48A700638798 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC1B1F6F197B48A700638798 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC1B1F73197B48A700638798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FC1B1F74197B48A700638798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FC1B1F76197B48A700638798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Subtle/Subtle-Prefix.pch";
+				INFOPLIST_FILE = "Subtle/Subtle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = /Users/canzhiye/AppDev/Subtle/Subtle/INDANCSClientFramework;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FC1B1F77197B48A700638798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Subtle/Subtle-Prefix.pch";
+				INFOPLIST_FILE = "Subtle/Subtle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = /Users/canzhiye/AppDev/Subtle/Subtle/INDANCSClientFramework;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FC1B1F79197B48A700638798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Subtle.app/Contents/MacOS/Subtle";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Subtle/Subtle-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SubtleTests/SubtleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FC1B1F7A197B48A700638798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Subtle.app/Contents/MacOS/Subtle";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Subtle/Subtle-Prefix.pch";
+				INFOPLIST_FILE = "SubtleTests/SubtleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC1B1F3F197B48A600638798 /* Build configuration list for PBXProject "Subtle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1B1F73197B48A700638798 /* Debug */,
+				FC1B1F74197B48A700638798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC1B1F75197B48A700638798 /* Build configuration list for PBXNativeTarget "Subtle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1B1F76197B48A700638798 /* Debug */,
+				FC1B1F77197B48A700638798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC1B1F78197B48A700638798 /* Build configuration list for PBXNativeTarget "SubtleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1B1F79197B48A700638798 /* Debug */,
+				FC1B1F7A197B48A700638798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC1B1F3C197B48A600638798 /* Project object */;
+}

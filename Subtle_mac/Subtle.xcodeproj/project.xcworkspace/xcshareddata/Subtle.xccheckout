@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FE34106B-B189-4E20-BE26-9F9081359601</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Subtle</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>318248AD-3781-4C29-AFD1-B4095BE34713</key>
+		<string>https://github.com/canzhiye/HueHueHue.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Subtle/Subtle.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>318248AD-3781-4C29-AFD1-B4095BE34713</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/canzhiye/HueHueHue.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>318248AD-3781-4C29-AFD1-B4095BE34713</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>318248AD-3781-4C29-AFD1-B4095BE34713</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Subtle</string>
+		</dict>
+	</array>
+</dict>
+</plist>

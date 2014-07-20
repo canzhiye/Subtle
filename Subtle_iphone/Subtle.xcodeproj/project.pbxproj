@@ -14,13 +14,15 @@
 		3E58DC81197B66DD003B4096 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E58DC80197B66DD003B4096 /* main.m */; };
 		3E58DC85197B66DD003B4096 /* subtleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E58DC84197B66DD003B4096 /* subtleAppDelegate.m */; };
 		3E58DC88197B66DD003B4096 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E58DC86197B66DD003B4096 /* Main.storyboard */; };
-		3E58DC8B197B66DD003B4096 /* subtleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E58DC8A197B66DD003B4096 /* subtleViewController.m */; };
+		3E58DC8B197B66DD003B4096 /* subtleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E58DC8A197B66DD003B4096 /* subtleTableViewController.m */; };
 		3E58DC8D197B66DD003B4096 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E58DC8C197B66DD003B4096 /* Images.xcassets */; };
 		3E58DC94197B66DD003B4096 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E58DC93197B66DD003B4096 /* XCTest.framework */; };
 		3E58DC95197B66DD003B4096 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E58DC74197B66DD003B4096 /* Foundation.framework */; };
 		3E58DC96197B66DD003B4096 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E58DC78197B66DD003B4096 /* UIKit.framework */; };
 		3E58DC9E197B66DD003B4096 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E58DC9C197B66DD003B4096 /* InfoPlist.strings */; };
 		3E58DCA0197B66DD003B4096 /* SubtleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E58DC9F197B66DD003B4096 /* SubtleTests.m */; };
+		3E58DCAC197B707A003B4096 /* INDANCSServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E58DCAB197B707A003B4096 /* INDANCSServer.m */; };
+		3E58DCAF197B71CA003B4096 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E58DCAE197B71CA003B4096 /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +47,18 @@
 		3E58DC83197B66DD003B4096 /* subtleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = subtleAppDelegate.h; sourceTree = "<group>"; };
 		3E58DC84197B66DD003B4096 /* subtleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = subtleAppDelegate.m; sourceTree = "<group>"; };
 		3E58DC87197B66DD003B4096 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3E58DC89197B66DD003B4096 /* subtleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = subtleViewController.h; sourceTree = "<group>"; };
-		3E58DC8A197B66DD003B4096 /* subtleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = subtleViewController.m; sourceTree = "<group>"; };
+		3E58DC89197B66DD003B4096 /* subtleTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = subtleTableViewController.h; sourceTree = "<group>"; };
+		3E58DC8A197B66DD003B4096 /* subtleTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = subtleTableViewController.m; sourceTree = "<group>"; };
 		3E58DC8C197B66DD003B4096 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3E58DC92197B66DD003B4096 /* SubtleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubtleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E58DC93197B66DD003B4096 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3E58DC9B197B66DD003B4096 /* SubtleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SubtleTests-Info.plist"; sourceTree = "<group>"; };
 		3E58DC9D197B66DD003B4096 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3E58DC9F197B66DD003B4096 /* SubtleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubtleTests.m; sourceTree = "<group>"; };
+		3E58DCA9197B707A003B4096 /* INDANCSDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDANCSDefines.h; sourceTree = "<group>"; };
+		3E58DCAA197B707A003B4096 /* INDANCSServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDANCSServer.h; sourceTree = "<group>"; };
+		3E58DCAB197B707A003B4096 /* INDANCSServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDANCSServer.m; sourceTree = "<group>"; };
+		3E58DCAE197B71CA003B4096 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E58DCAF197B71CA003B4096 /* CoreBluetooth.framework in Frameworks */,
 				3E58DC77197B66DD003B4096 /* CoreGraphics.framework in Frameworks */,
 				3E58DC79197B66DD003B4096 /* UIKit.framework in Frameworks */,
 				3E58DC75197B66DD003B4096 /* Foundation.framework in Frameworks */,
@@ -101,6 +108,7 @@
 		3E58DC73197B66DD003B4096 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3E58DCAE197B71CA003B4096 /* CoreBluetooth.framework */,
 				3E58DC74197B66DD003B4096 /* Foundation.framework */,
 				3E58DC76197B66DD003B4096 /* CoreGraphics.framework */,
 				3E58DC78197B66DD003B4096 /* UIKit.framework */,
@@ -112,11 +120,12 @@
 		3E58DC7A197B66DD003B4096 /* Subtle */ = {
 			isa = PBXGroup;
 			children = (
+				3E58DCAD197B707E003B4096 /* INDANCS */,
 				3E58DC83197B66DD003B4096 /* subtleAppDelegate.h */,
 				3E58DC84197B66DD003B4096 /* subtleAppDelegate.m */,
 				3E58DC86197B66DD003B4096 /* Main.storyboard */,
-				3E58DC89197B66DD003B4096 /* subtleViewController.h */,
-				3E58DC8A197B66DD003B4096 /* subtleViewController.m */,
+				3E58DC89197B66DD003B4096 /* subtleTableViewController.h */,
+				3E58DC8A197B66DD003B4096 /* subtleTableViewController.m */,
 				3E58DC8C197B66DD003B4096 /* Images.xcassets */,
 				3E58DC7B197B66DD003B4096 /* Supporting Files */,
 			);
@@ -150,6 +159,16 @@
 				3E58DC9C197B66DD003B4096 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E58DCAD197B707E003B4096 /* INDANCS */ = {
+			isa = PBXGroup;
+			children = (
+				3E58DCA9197B707A003B4096 /* INDANCSDefines.h */,
+				3E58DCAA197B707A003B4096 /* INDANCSServer.h */,
+				3E58DCAB197B707A003B4096 /* INDANCSServer.m */,
+			);
+			name = INDANCS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +219,13 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Subtle;
 				TargetAttributes = {
+					3E58DC70197B66DD003B4096 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
 					3E58DC91197B66DD003B4096 = {
 						TestTargetID = 3E58DC70197B66DD003B4096;
 					};
@@ -251,7 +277,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E58DC81197B66DD003B4096 /* main.m in Sources */,
-				3E58DC8B197B66DD003B4096 /* subtleViewController.m in Sources */,
+				3E58DCAC197B707A003B4096 /* INDANCSServer.m in Sources */,
+				3E58DC8B197B66DD003B4096 /* subtleTableViewController.m in Sources */,
 				3E58DC85197B66DD003B4096 /* subtleAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +484,7 @@
 				3E58DCA5197B66DD003B4096 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E58DCA6197B66DD003B4096 /* Build configuration list for PBXNativeTarget "SubtleTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +493,7 @@
 				3E58DCA8197B66DD003B4096 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

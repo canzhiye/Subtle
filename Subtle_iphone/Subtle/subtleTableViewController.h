@@ -1,5 +1,5 @@
 //
-//  subtleViewController.h
+//  subtleTableViewController.h
 //  Subtle
 //
 //  Created by Coulton Vento on 7/19/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface subtleViewController : UIViewController
+@interface subtleTableViewController : UITableViewController
 
 @end

@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E58DC75197B66DD003B4096 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E58DC74197B66DD003B4096 /* Foundation.framework */; };
+		3E58DC77197B66DD003B4096 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E58DC76197B66DD003B4096 /* CoreGraphics.framework */; };
+		3E58DC79197B66DD003B4096 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E58DC78197B66DD003B4096 /* UIKit.framework */; };
+		3E58DC7F197B66DD003B4096 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E58DC7D197B66DD003B4096 /* InfoPlist.strings */; };
+		3E58DC81197B66DD003B4096 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E58DC80197B66DD003B4096 /* main.m */; };
+		3E58DC85197B66DD003B4096 /* subtleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E58DC84197B66DD003B4096 /* subtleAppDelegate.m */; };
+		3E58DC88197B66DD003B4096 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E58DC86197B66DD003B4096 /* Main.storyboard */; };
+		3E58DC8B197B66DD003B4096 /* subtleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E58DC8A197B66DD003B4096 /* subtleViewController.m */; };
+		3E58DC8D197B66DD003B4096 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E58DC8C197B66DD003B4096 /* Images.xcassets */; };
+		3E58DC94197B66DD003B4096 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E58DC93197B66DD003B4096 /* XCTest.framework */; };
+		3E58DC95197B66DD003B4096 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E58DC74197B66DD003B4096 /* Foundation.framework */; };
+		3E58DC96197B66DD003B4096 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E58DC78197B66DD003B4096 /* UIKit.framework */; };
+		3E58DC9E197B66DD003B4096 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E58DC9C197B66DD003B4096 /* InfoPlist.strings */; };
+		3E58DCA0197B66DD003B4096 /* SubtleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E58DC9F197B66DD003B4096 /* SubtleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E58DC97197B66DD003B4096 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E58DC69197B66DD003B4096 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E58DC70197B66DD003B4096;
+			remoteInfo = Subtle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E58DC71197B66DD003B4096 /* Subtle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Subtle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E58DC74197B66DD003B4096 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3E58DC76197B66DD003B4096 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3E58DC78197B66DD003B4096 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3E58DC7C197B66DD003B4096 /* Subtle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Subtle-Info.plist"; sourceTree = "<group>"; };
+		3E58DC7E197B66DD003B4096 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E58DC80197B66DD003B4096 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E58DC82197B66DD003B4096 /* Subtle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Subtle-Prefix.pch"; sourceTree = "<group>"; };
+		3E58DC83197B66DD003B4096 /* subtleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = subtleAppDelegate.h; sourceTree = "<group>"; };
+		3E58DC84197B66DD003B4096 /* subtleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = subtleAppDelegate.m; sourceTree = "<group>"; };
+		3E58DC87197B66DD003B4096 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E58DC89197B66DD003B4096 /* subtleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = subtleViewController.h; sourceTree = "<group>"; };
+		3E58DC8A197B66DD003B4096 /* subtleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = subtleViewController.m; sourceTree = "<group>"; };
+		3E58DC8C197B66DD003B4096 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3E58DC92197B66DD003B4096 /* SubtleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubtleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E58DC93197B66DD003B4096 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3E58DC9B197B66DD003B4096 /* SubtleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SubtleTests-Info.plist"; sourceTree = "<group>"; };
+		3E58DC9D197B66DD003B4096 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E58DC9F197B66DD003B4096 /* SubtleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubtleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E58DC6E197B66DD003B4096 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E58DC77197B66DD003B4096 /* CoreGraphics.framework in Frameworks */,
+				3E58DC79197B66DD003B4096 /* UIKit.framework in Frameworks */,
+				3E58DC75197B66DD003B4096 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E58DC8F197B66DD003B4096 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E58DC94197B66DD003B4096 /* XCTest.framework in Frameworks */,
+				3E58DC96197B66DD003B4096 /* UIKit.framework in Frameworks */,
+				3E58DC95197B66DD003B4096 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E58DC68197B66DD003B4096 = {
+			isa = PBXGroup;
+			children = (
+				3E58DC7A197B66DD003B4096 /* Subtle */,
+				3E58DC99197B66DD003B4096 /* SubtleTests */,
+				3E58DC73197B66DD003B4096 /* Frameworks */,
+				3E58DC72197B66DD003B4096 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E58DC72197B66DD003B4096 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E58DC71197B66DD003B4096 /* Subtle.app */,
+				3E58DC92197B66DD003B4096 /* SubtleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E58DC73197B66DD003B4096 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E58DC74197B66DD003B4096 /* Foundation.framework */,
+				3E58DC76197B66DD003B4096 /* CoreGraphics.framework */,
+				3E58DC78197B66DD003B4096 /* UIKit.framework */,
+				3E58DC93197B66DD003B4096 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E58DC7A197B66DD003B4096 /* Subtle */ = {
+			isa = PBXGroup;
+			children = (
+				3E58DC83197B66DD003B4096 /* subtleAppDelegate.h */,
+				3E58DC84197B66DD003B4096 /* subtleAppDelegate.m */,
+				3E58DC86197B66DD003B4096 /* Main.storyboard */,
+				3E58DC89197B66DD003B4096 /* subtleViewController.h */,
+				3E58DC8A197B66DD003B4096 /* subtleViewController.m */,
+				3E58DC8C197B66DD003B4096 /* Images.xcassets */,
+				3E58DC7B197B66DD003B4096 /* Supporting Files */,
+			);
+			path = Subtle;
+			sourceTree = "<group>";
+		};
+		3E58DC7B197B66DD003B4096 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E58DC7C197B66DD003B4096 /* Subtle-Info.plist */,
+				3E58DC7D197B66DD003B4096 /* InfoPlist.strings */,
+				3E58DC80197B66DD003B4096 /* main.m */,
+				3E58DC82197B66DD003B4096 /* Subtle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E58DC99197B66DD003B4096 /* SubtleTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E58DC9F197B66DD003B4096 /* SubtleTests.m */,
+				3E58DC9A197B66DD003B4096 /* Supporting Files */,
+			);
+			path = SubtleTests;
+			sourceTree = "<group>";
+		};
+		3E58DC9A197B66DD003B4096 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E58DC9B197B66DD003B4096 /* SubtleTests-Info.plist */,
+				3E58DC9C197B66DD003B4096 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E58DC70197B66DD003B4096 /* Subtle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E58DCA3197B66DD003B4096 /* Build configuration list for PBXNativeTarget "Subtle" */;
+			buildPhases = (
+				3E58DC6D197B66DD003B4096 /* Sources */,
+				3E58DC6E197B66DD003B4096 /* Frameworks */,
+				3E58DC6F197B66DD003B4096 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Subtle;
+			productName = Subtle;
+			productReference = 3E58DC71197B66DD003B4096 /* Subtle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E58DC91197B66DD003B4096 /* SubtleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E58DCA6197B66DD003B4096 /* Build configuration list for PBXNativeTarget "SubtleTests" */;
+			buildPhases = (
+				3E58DC8E197B66DD003B4096 /* Sources */,
+				3E58DC8F197B66DD003B4096 /* Frameworks */,
+				3E58DC90197B66DD003B4096 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E58DC98197B66DD003B4096 /* PBXTargetDependency */,
+			);
+			name = SubtleTests;
+			productName = SubtleTests;
+			productReference = 3E58DC92197B66DD003B4096 /* SubtleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E58DC69197B66DD003B4096 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = subtle;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Subtle;
+				TargetAttributes = {
+					3E58DC91197B66DD003B4096 = {
+						TestTargetID = 3E58DC70197B66DD003B4096;
+					};
+				};
+			};
+			buildConfigurationList = 3E58DC6C197B66DD003B4096 /* Build configuration list for PBXProject "Subtle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E58DC68197B66DD003B4096;
+			productRefGroup = 3E58DC72197B66DD003B4096 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E58DC70197B66DD003B4096 /* Subtle */,
+				3E58DC91197B66DD003B4096 /* SubtleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E58DC6F197B66DD003B4096 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E58DC8D197B66DD003B4096 /* Images.xcassets in Resources */,
+				3E58DC7F197B66DD003B4096 /* InfoPlist.strings in Resources */,
+				3E58DC88197B66DD003B4096 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E58DC90197B66DD003B4096 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E58DC9E197B66DD003B4096 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E58DC6D197B66DD003B4096 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E58DC81197B66DD003B4096 /* main.m in Sources */,
+				3E58DC8B197B66DD003B4096 /* subtleViewController.m in Sources */,
+				3E58DC85197B66DD003B4096 /* subtleAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E58DC8E197B66DD003B4096 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E58DCA0197B66DD003B4096 /* SubtleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E58DC98197B66DD003B4096 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E58DC70197B66DD003B4096 /* Subtle */;
+			targetProxy = 3E58DC97197B66DD003B4096 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E58DC7D197B66DD003B4096 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E58DC7E197B66DD003B4096 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3E58DC86197B66DD003B4096 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E58DC87197B66DD003B4096 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E58DC9C197B66DD003B4096 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E58DC9D197B66DD003B4096 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E58DCA1197B66DD003B4096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3E58DCA2197B66DD003B4096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E58DCA4197B66DD003B4096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Subtle/Subtle-Prefix.pch";
+				INFOPLIST_FILE = "Subtle/Subtle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3E58DCA5197B66DD003B4096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Subtle/Subtle-Prefix.pch";
+				INFOPLIST_FILE = "Subtle/Subtle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3E58DCA7197B66DD003B4096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Subtle.app/Subtle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Subtle/Subtle-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SubtleTests/SubtleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3E58DCA8197B66DD003B4096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Subtle.app/Subtle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Subtle/Subtle-Prefix.pch";
+				INFOPLIST_FILE = "SubtleTests/SubtleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E58DC6C197B66DD003B4096 /* Build configuration list for PBXProject "Subtle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E58DCA1197B66DD003B4096 /* Debug */,
+				3E58DCA2197B66DD003B4096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E58DCA3197B66DD003B4096 /* Build configuration list for PBXNativeTarget "Subtle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E58DCA4197B66DD003B4096 /* Debug */,
+				3E58DCA5197B66DD003B4096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3E58DCA6197B66DD003B4096 /* Build configuration list for PBXNativeTarget "SubtleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E58DCA7197B66DD003B4096 /* Debug */,
+				3E58DCA8197B66DD003B4096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E58DC69197B66DD003B4096 /* Project object */;
+}

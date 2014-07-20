@@ -30,6 +30,12 @@
 			[self handleNewNotification:n];
 		}];
 	}];
+    
+    // creates statusbar stuff
+    self.statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
+    [self.statusItem setMenu:self.statusMenu];
+    [self.statusItem setTitle:@"Subtle"];
+    [self.statusItem setHighlightMode:YES];
 }
 
 - (void)handleNewDevice:(INDANCSDevice *)device

@@ -465,6 +465,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/canzhiye/AppDev/Subtle/INDANCSClient,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "INDANCSMac/INDANCSMac-Prefix.pch";
 				INFOPLIST_FILE = "INDANCSMac/INDANCSMac-Info.plist";
@@ -479,6 +483,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/canzhiye/AppDev/Subtle/INDANCSClient,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "INDANCSMac/INDANCSMac-Prefix.pch";
 				INFOPLIST_FILE = "INDANCSMac/INDANCSMac-Info.plist";

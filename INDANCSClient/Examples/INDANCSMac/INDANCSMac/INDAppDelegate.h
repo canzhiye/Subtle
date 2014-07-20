@@ -7,9 +7,28 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <HueSDK_OSX/HueSDK.h>
+
+#define NSAppDelegate  ((AppDelegate *)[[NSApplication sharedApplication] delegate])
+
 
 @interface INDAppDelegate : NSObject <NSApplicationDelegate>
-
 @property (assign) IBOutlet NSWindow *window;
+
+/**
+ Starts the local heartbeat
+ */
+- (void)enableLocalHeartbeat;
+
+/**
+ Stops the local heartbeat
+ */
+- (void)disableLocalHeartbeat;
+
+/**
+ Starts a search for a bridge
+ */
+- (void)searchForBridgeLocal;
+
 
 @end

@@ -12,6 +12,7 @@
 @interface INDAppDelegate () <INDANCSClientDelegate, NSUserNotificationCenterDelegate>
 @property (nonatomic, strong) INDANCSClient *client;
 @property (nonatomic, strong) NSMutableArray *notifications;
+
 @end
 
 @implementation INDAppDelegate
@@ -29,8 +30,10 @@
 			[self handleNewNotification:n];
 		}];
 	}];
+    
+    [self enableLocalHeartbeat];
 }
-
+#pragma mark - Get notification stuff
 - (void)handleNewDevice:(INDANCSDevice *)device
 {
 	NSLog(@"Found device: %@", device.name);
@@ -43,10 +46,23 @@
 - (void)handleNewNotification:(INDANCSNotification *)n
 {
 	switch (n.latestEventID) {
-		case INDANCSEventIDNotificationAdded:
+		case INDANCSEventIDNotificationAdded: {
 			[self.notifications insertObject:n atIndex:0];
 			[self postUserNotificationWithANCSNotification:n];
+            
+            //get color of icon using bundle identifier
+            NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://itunes.apple.com/lookup?bundleId=%@",n.application.bundleIdentifier]]];
+            
+            NSError *error = nil;
+            
+            NSDictionary *d = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:&error];
+            
+            NSString *urlString = d[@"results"][0][@"artworkUrl60"];
+            
+            NSImage *iconImage = [[NSImage alloc]initWithContentsOfURL:[NSURL URLWithString:urlString]];
+            
 			break;
+        }
 		case INDANCSEventIDNotificationRemoved: {
 			NSUInteger index = [self.notifications indexOfObject:n];
 			if (index != NSNotFound) {
@@ -110,5 +126,7 @@
 {
 	return YES;
 }
+
+#pragma mark - Philips Hue Stuff
 
 @end
